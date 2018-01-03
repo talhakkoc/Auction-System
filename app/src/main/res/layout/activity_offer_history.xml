@@ -18,67 +18,80 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Offer History :"
+            android:text="Bid List :"
             android:id="@+id/textView"
             android:layout_alignParentTop="true"
             android:layout_alignParentStart="true"
             android:layout_marginTop="71dp"
             android:layout_alignParentEnd="true" />
 
-        <TextView
-            android:layout_width="wrap_content"
+        <EditText
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Offer 1 :"
-            android:id="@+id/textView2"
-            android:layout_below="@+id/textView"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="48dp"
-            android:layout_alignEnd="@+id/textView" />
+            android:id="@+id/TextFeed1"
+            android:layout_gravity="center_horizontal"
+            android:text="Bid 1 :"
+            android:clickable="false"
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Offer 2 :"
-            android:id="@+id/textView3"
-            android:layout_below="@+id/textView2"
-            android:layout_marginTop="15dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignEnd="@+id/textView2" />
+            android:linksClickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            />
 
-        <TextView
-            android:layout_width="wrap_content"
+        <EditText
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Offer 3 :"
-            android:id="@+id/textView4"
-            android:layout_marginTop="15dp"
-            android:layout_below="@+id/textView3"
-            android:layout_alignParentStart="true"
-            android:layout_alignEnd="@+id/textView3" />
+            android:id="@+id/TextFeed2"
+            android:layout_gravity="center_horizontal"
+            android:text="Bid 2:"
+            android:clickable="false"
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Offer 4 :"
-            android:layout_marginTop="15dp"
-            android:id="@+id/textView5"
-            android:layout_below="@+id/textView4"
-            android:layout_alignParentStart="true"
-            android:layout_alignEnd="@+id/textView4" />
+            android:linksClickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
 
-        <TextView
-            android:layout_width="wrap_content"
+        <EditText
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Offer 5 :"
-            android:id="@+id/textView6"
-            android:layout_below="@+id/textView5"
-            android:layout_marginTop="15dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true" />
+            android:id="@+id/TextFeed3"
+            android:text="Bid 3:"
+            android:clickable="false"
+
+            android:linksClickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextFeed4"
+            android:layout_gravity="center_horizontal"
+            android:text="Bid 4:"
+            android:clickable="false"
+
+            android:linksClickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextFeed5"
+            android:layout_gravity="center_horizontal"
+            android:text="Bid 5:"
+            android:clickable="false"
+
+            android:linksClickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Bids"
+            android:id="@+id/btnGf"
+            android:layout_below="@+id/btnCancel"
+            android:layout_alignParentStart="true" />
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -88,7 +101,7 @@
             android:id="@+id/button15"
             android:layout_below="@+id/textView6"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="46dp" />
+            android:layout_marginTop="16dp" />
 
         <Button
             style="?android:attr/buttonStyleSmall"

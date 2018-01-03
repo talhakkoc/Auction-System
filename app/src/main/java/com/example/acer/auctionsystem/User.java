@@ -13,6 +13,7 @@ public class User extends AppCompatActivity {
     Button btnMain;
     Button btnInfo;
     Button btnSearch;
+    Button btnWrite;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +24,7 @@ public class User extends AppCompatActivity {
         btnFeed = (Button)findViewById(R.id.btnFeed);
         btnSearch = (Button)findViewById(R.id.btnSearch);
         btnInfo = (Button)findViewById(R.id.btnInfo);
+        btnWrite = (Button)findViewById(R.id.btnWrite);
 
 
         btnMain.setOnClickListener(new View.OnClickListener() {
@@ -46,7 +48,7 @@ public class User extends AppCompatActivity {
         btnInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(User.this,Products.class));
+                startActivity(new Intent(User.this,ProductDesc.class));
             }
         });
         btnSearch.setOnClickListener(new View.OnClickListener() {
@@ -59,6 +61,12 @@ public class User extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(User.this,OfferHistory.class));
+            }
+        });
+        btnWrite.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(User.this,Feedback.class));
             }
         });
     }

@@ -14,23 +14,22 @@
         android:id="@+id/txtYazi2"
         android:onClick="Sil"
 
-        android:hint="Cevap"
+        android:hint="Enter ID"
         android:layout_above="@+id/txtYazi3"
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="91dp"
-        android:layout_alignParentStart="true"
-        android:text="ID" />
+        android:layout_alignParentStart="true" />
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/txtYazi3"
         android:onClick="Sil"
 
-        android:hint="Cevap"
+        android:hint="Enter PASSWORD"
         android:layout_centerVertical="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:text="Pass" />
+         />
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
@@ -39,8 +38,7 @@
         android:id="@+id/btnMain"
         android:layout_gravity="center_horizontal"
         android:layout_below="@+id/txtYazi3"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="88dp" />
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -50,6 +48,24 @@
         android:layout_alignBottom="@+id/btnMain"
         android:layout_alignParentEnd="true"
         android:layout_toEndOf="@+id/btnMain" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OutoFill User"
+        android:id="@+id/button"
+        android:layout_below="@+id/btnMain"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/btnLg" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OutoFill Tech"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/btnLg" />
 
 
 </RelativeLayout>

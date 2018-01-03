@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Search Product"
-            android:layout_marginTop="130dp"
+            android:layout_marginTop="60dp"
             android:id="@+id/btnSearch" />
 
         <Button
@@ -50,6 +50,13 @@
             android:layout_height="wrap_content"
             android:text="Search Feedback"
             android:id="@+id/btnFeed" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Write Feedback"
+            android:id="@+id/btnWrite"
+            android:layout_gravity="center_horizontal" />
 
         <Button
             style="?android:attr/buttonStyleSmall"

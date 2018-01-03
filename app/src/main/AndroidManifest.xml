@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.acer.auctionsystem">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -26,7 +28,13 @@
         <activity android:name=".SearchFeedback" />
         <activity android:name=".OfferHistory" />
         <activity android:name=".LoginScreen" />
-        <activity android:name=".LoginScreenVendor"></activity>
+        <activity android:name=".LoginScreenVendor" />
+        <activity android:name=".AddProduct" />
+        <activity android:name=".ProductDesc" />
+        <activity android:name=".AddProductDesc" />
+        <activity android:name=".AddBid" />
+        <activity android:name=".AddFeedTech" />
+        <activity android:name=".SearchFeedTech"></activity>
     </application>
 
 </manifest>

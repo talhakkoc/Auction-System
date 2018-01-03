@@ -12,24 +12,71 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true">
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Your Feedback"
+                android:id="@+id/textView7" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/feedback" />
+
+        </LinearLayout>
 
         <EditText
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="110dp"
-            android:id="@+id/editText10"
-            android:text="Your Feedback :" />
+            android:id="@+id/feedB"
+
+            android:hint="Write Feedback :"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+
+            android:layout_marginTop="40dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:id="@+id/btnSend"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="90dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Menu"
+            android:id="@+id/btnUser"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vendor Menu"
+            android:id="@+id/btnVendor"
+            android:layout_gravity="center_horizontal" />
 
         <Button
             style="?android:attr/buttonStyleSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Main Menu"
-            android:layout_marginTop="90dp"
+            android:layout_marginTop="20dp"
             android:id="@+id/btnMain"
             android:layout_gravity="center_horizontal" />
     </LinearLayout>
+
 </RelativeLayout>

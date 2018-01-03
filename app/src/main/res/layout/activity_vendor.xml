@@ -23,18 +23,18 @@
             android:id="@+id/btnAdd" />
 
         <Button
-            style="?android:attr/buttonStyleSmall"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Product Info"
-            android:id="@+id/btnInfo" />
+            android:text="Add Product Info"
+            android:id="@+id/btnProInfo"
+            android:layout_gravity="center_horizontal" />
 
         <Button
             style="?android:attr/buttonStyleSmall"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Write Feedback"
-            android:id="@+id/btnFeed" />
+            android:text="Search Feedback"
+            android:id="@+id/btnSearch" />
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -44,11 +44,10 @@
             android:id="@+id/btnTran" />
 
         <Button
-            style="?android:attr/buttonStyleSmall"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sell Product"
-            android:id="@+id/btnSell" />
+            android:text="Write Feedback To tech"
+            android:id="@+id/btnFeedT" />
 
         <Button
             style="?android:attr/buttonStyleSmall"
